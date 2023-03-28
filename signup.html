@@ -20,7 +20,7 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a class="active" href="signup.html">Sign Up</a>
+                    <a href="signup.html" class="active">Sign Up</a>
                 </li>
                 <li>
                     <a href="gallery.html">Gallery</a>
@@ -33,7 +33,24 @@
         </nav>
     </header>
     <section class="form-section">
-        
+        <form method="post" >
+            <h2>Let's get you signed up!</h2>
+            <label>First Name</label>
+            <input type="text" name="first_name" id="fname" required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="last_name" id="lname" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" name="email_address" id="email" required>
+
+            <label for="road">Road</label>
+            <input type="radio" name="running_preference" id="road" value="road" required>
+
+            <label for="trail">Trail</label>
+            <input type="radio" name="running_preference" id="trail" value="trail" required>
+
+        </form>
     </section>
     <footer>
         <ul class="social-networks">
