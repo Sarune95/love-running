@@ -248,6 +248,27 @@ footer {
     width: 100%;
 }
 
+/* Form */
+
+.form-section {
+    clear:left;
+    background: url(../images/formbg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+
 /* Media queries */
 
 /* For larger to medium screens size from px wide and down */

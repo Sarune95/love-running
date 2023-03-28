@@ -9,7 +9,7 @@
     <title>Love Running</title>
 
     <!-- Stylesheet -->
-    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -33,23 +33,21 @@
         </nav>
     </header>
     <section class="form-section">
-        <form method="post" >
+        <form method="post" action="https://formdump.codeinstitute.net/" class="signup-form">
             <h2>Let's get you signed up!</h2>
             <label>First Name</label>
             <input type="text" name="first_name" id="fname" required>
-
             <label for="lname">Last Name</label>
             <input type="text" name="last_name" id="lname" required>
-
             <label for="email">Email Address</label>
             <input type="email" name="email_address" id="email" required>
-
             <label for="road">Road</label>
             <input type="radio" name="running_preference" id="road" value="road" required>
-
             <label for="trail">Trail</label>
             <input type="radio" name="running_preference" id="trail" value="trail" required>
-
+            <label for="both">Both</label>
+            <input type="radio" name="running_preference" id="both" value="both" required>
+            <input type="submit" value="Let's Run!">
         </form>
     </section>
     <footer>
